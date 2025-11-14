@@ -1,4 +1,3 @@
-// src/screens/HomeScreen.js
 import { Ionicons } from '@expo/vector-icons';
 import axios from 'axios';
 import { useEffect, useState } from 'react';
