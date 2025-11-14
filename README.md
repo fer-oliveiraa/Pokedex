@@ -1,6 +1,6 @@
 # Pokédex Digital - React Native
 
-> Trabalho Final da disciplina de Desenvolvimento Mobile.
+> Trabalho Final da disciplina de Dispositivos Móveis.
 
 Este projeto consiste em um aplicativo móvel desenvolvido em **React Native (Expo)** que consome a [PokéAPI](https://pokeapi.co/) para listar, filtrar e exibir detalhes de Pokémons. O objetivo foi aplicar conceitos de consumo de API REST, navegação, gerenciamento de estados e criação de interfaces responsivas.
 
