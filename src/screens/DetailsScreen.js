@@ -1,4 +1,3 @@
-// src/screens/DetailsScreen.js
 import axios from 'axios';
 import { useEffect, useState } from 'react';
 import {
