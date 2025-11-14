@@ -1,50 +1,57 @@
-# Welcome to your Expo app 👋
+# Pokédex Digital - React Native
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+> Trabalho Final da disciplina de Desenvolvimento Mobile.
 
-## Get started
+Este projeto consiste em um aplicativo móvel desenvolvido em **React Native (Expo)** que consome a [PokéAPI](https://pokeapi.co/) para listar, filtrar e exibir detalhes de Pokémons. O objetivo foi aplicar conceitos de consumo de API REST, navegação, gerenciamento de estados e criação de interfaces responsivas.
 
-1. Install dependencies
+## Demonstração do App
 
-   ```bash
-   npm install
-   ```
+<div align="center">
 
-2. Start the app
+https://github.com/user-attachments/assets/8c68218a-10c8-4fe0-af61-329138f45a30
 
-   ```bash
-   npx expo start
-   ```
+</div>
 
-In the output, you'll find options to open the app in a
+## Funcionalidades Principais
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+- **Listagem Infinita:** Carrega os Pokémons automaticamente conforme o usuário rola a tela.
+- **Busca e Filtro:** Permite buscar por nome/número e filtrar a lista por tipo (Fogo, Água, etc.).
+- **Detalhes Visuais:** Mostra uma tela completa para cada Pokémon, incluindo barras de estatísticas (HP, Ataque, etc.).
+- **Tratamento de Erros:** Possui uma tela de falha de conexão com botão para "Tentar Novamente".
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+## Tecnologias Utilizadas
 
-## Get a fresh project
+- **[React Native](https://reactnative.dev/)** (via Expo)
+- **[React Navigation](https://reactnavigation.org/)** (Stack Navigator)
+- **[Axios](https://axios-http.com/)** (Requisições HTTP)
+- **JavaScript (ES6+)** & Hooks (useState, useEffect)
 
-When you're ready, run:
+## Como executar o projeto
 
+### Pré-requisitos
+Certifique-se de ter instalado:
+- [Node.js](https://nodejs.org/)
+- Gerenciador de pacotes (NPM ou Yarn)
+- Aplicativo **Expo Go** no seu celular (Android ou iOS)
+
+### Instalação
+
+1. Clone o repositório:
 ```bash
-npm run reset-project
+git clone https://github.com/fer-oliveiraa/Pokedex.git
+cd PokedexFinal
 ```
+2. Instale as dependências:
+```bash
+npm install
+```
+3. Execute o projeto:
+```bash
+npx expo start
+```
+#### (Caso tenha problemas de conexão, tente: npx expo start --tunnel)
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
 
-## Learn more
+> Desenvolvido por Fernanda Oliveira Cardoso. Aluna do curso de Ciência da Computação - IFTM
 
-To learn more about developing your project with Expo, look at the following resources:
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
